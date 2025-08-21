@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #D4AF37;
+  --cream: #F8F5F0;
+}
+
+.text-gold { color: var(--gold); }
+.text-cream { color: var(--cream); }
+.bg-black { background-color: #000000; }
+.bg-gold { background-color: var(--gold); }
+.bg-cream { background-color: var(--cream); }
