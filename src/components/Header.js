@@ -6,11 +6,11 @@ export default function Header() {
       <Logo />
       <nav>
         <ul className="flex space-x-6">
-          <li>Home</li>
-          <li>Shop</li>
-          <li>Cart</li>
+          <li className="hover:text-gold cursor-pointer">Home</li>
+          <li className="hover:text-gold cursor-pointer">Shop</li>
+          <li className="hover:text-gold cursor-pointer">Cart</li>
         </ul>
       </nav>
     </header>
   );
-} 
+}
