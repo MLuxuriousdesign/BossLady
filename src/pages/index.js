@@ -4,9 +4,9 @@ import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
 
 const products = [
-  { id: 1, name: 'Luxury Handbag', price: '$1,200', image: '/images/product1.png' },
-  { id: 2, name: 'Gold Watch', price: '$3,500', image: '/images/product2.png' },
-  { id: 3, name: 'Silk Scarf', price: '$850', image: '/images/product3.png' },
+  { id: 1, name: 'Luxury Handbag', price: '$1,200', image: 'https://via.placeholder.com/400x400' },
+  { id: 2, name: 'Gold Watch', price: '$3,500', image: 'https://via.placeholder.com/400x400' },
+  { id: 3, name: 'Silk Scarf', price: '$850', image: 'https://via.placeholder.com/400x400' },
 ];
 
 export default function Home() {
