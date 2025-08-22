@@ -7,7 +7,7 @@ const products = [
   { id: 1, name: 'Luxury Handbag', price: '$1,200', image: 'https://via.placeholder.com/400x400' },
   { id: 2, name: 'Gold Watch', price: '$3,500', image: 'https://via.placeholder.com/400x400' },
   { id: 3, name: 'Silk Scarf', price: '$850', image: 'https://via.placeholder.com/400x400' },
-];
+]; 
 
 export default function Home() {
   return (
